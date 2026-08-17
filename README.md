@@ -31,15 +31,15 @@ Extract unstructured data (documents, text) and transform into structured knowle
 
 ### Document to Graph
 
-| Library | Stars | Language | Best For |
-|---------|-------|----------|----------|
-| [docling-graph](https://github.com/docling-project/docling-graph) | ⭐⭐⭐⭐ | Python | PDF/document → KG with LLM backend |
-| [Docs2KG](https://github.com/AI4WA/Docs2KG) | ⭐⭐⭐⭐ | Python | Human-LLM collaborative graph from diverse docs |
-| [llm-graph-builder](https://github.com/neo4j-labs/llm-graph-builder) | ⭐⭐⭐⭐ | Python/JS | Neo4j official tool for unstructured → graph |
-| [knowledge-graph-extractor](https://github.com/hanxiao/knowledge-graph-extractor) | ⭐⭐⭐ | Python | Doc ZIP → interactive KG with local LLMs |
-| [knowledge_graph](https://github.com/rahulnyk/knowledge_graph) | ⭐⭐⭐ | Python | Text → graph for RAG & QnA |
-| [knowledge-graph-construction](https://github.com/aimaster-dev/knowledge-graph-construction) | ⭐⭐⭐ | Python | SPO triplet extraction + entity standardization |
-| [ai-knowledge-graph](https://github.com/robert-mcdermott/ai-knowledge-graph) | ⭐⭐ | Python | AI-powered KG generator |
+| Library | Language | Best For |
+|---------|----------|----------|
+| [docling-graph](https://github.com/docling-project/docling-graph) | Python | PDF/document → KG with LLM backend |
+| [Docs2KG](https://github.com/AI4WA/Docs2KG) | Python | Human-LLM collaborative graph from diverse docs |
+| [llm-graph-builder](https://github.com/neo4j-labs/llm-graph-builder) | Python/JS | Neo4j official tool for unstructured → graph |
+| [knowledge-graph-extractor](https://github.com/hanxiao/knowledge-graph-extractor) | Python | Doc ZIP → interactive KG with local LLMs |
+| [knowledge_graph](https://github.com/rahulnyk/knowledge_graph) | Python | Text → graph for RAG & QnA |
+| [knowledge-graph-construction](https://github.com/aimaster-dev/knowledge-graph-construction) | Python | SPO triplet extraction + entity standardization |
+| [ai-knowledge-graph](https://github.com/robert-mcdermott/ai-knowledge-graph) | Python | AI-powered KG generator |
 
 ### LLM-Integrated
 
@@ -56,15 +56,15 @@ Production-grade storage and query systems for graph data.
 
 ### Open Source
 
-| Database | Language | Best For | Maturity |
-|----------|----------|----------|----------|
-| [Neo4j](https://github.com/neo4j/neo4j) | Java | Industry standard, property graphs | ⭐⭐⭐⭐⭐ |
-| [ArangoDB](https://github.com/arangodb/arangodb) | C++/JS | Multi-model (graph + doc + search) | ⭐⭐⭐⭐ |
-| [JanusGraph](https://github.com/JanusGraph/janusgraph) | Java | Scalable, pluggable storage backends | ⭐⭐⭐⭐ |
-| [Memgraph](https://github.com/memgraph/memgraph) | C++ | Neo4j alternative, in-memory fast | ⭐⭐⭐⭐ |
-| [Dgraph](https://github.com/dgraph-io/dgraph) | Go | Distributed, GraphQL API | ⭐⭐⭐⭐ |
-| [RedisGraph](https://github.com/RedisGraph/RedisGraph) | C | In-memory graph on Redis | ⭐⭐⭐ |
-| [HugeGraph](https://github.com/apache/incubator-hugegraph) | Java | Apache project, large-scale | ⭐⭐⭐ |
+| Database | Language | Best For |
+|----------|----------|----------|
+| [Neo4j](https://github.com/neo4j/neo4j) | Java | Industry standard, property graphs |
+| [ArangoDB](https://github.com/arangodb/arangodb) | C++/JS | Multi-model (graph + doc + search) |
+| [JanusGraph](https://github.com/JanusGraph/janusgraph) | Java | Scalable, pluggable storage backends |
+| [Memgraph](https://github.com/memgraph/memgraph) | C++ | Neo4j alternative, in-memory fast |
+| [Dgraph](https://github.com/dgraph-io/dgraph) | Go | Distributed, GraphQL API |
+| [RedisGraph](https://github.com/RedisGraph/RedisGraph) | C | In-memory graph on Redis |
+| [HugeGraph](https://github.com/apache/incubator-hugegraph) | Java | Apache project, large-scale |
 
 ### Commercial / Managed
 
@@ -81,12 +81,12 @@ Algorithms, analytics, and computation on graphs.
 
 ### Python Libraries
 
-| Library | GitHub | Best For | Maturity |
-|---------|--------|----------|----------|
-| [NetworkX](https://github.com/networkx/networkx) | ⭐ Popular | Graph algorithms, analysis | ⭐⭐⭐⭐⭐ |
-| [igraph](https://igraph.org/) | — | High-performance algorithms | ⭐⭐⭐⭐⭐ |
-| [SNAP](http://snap.stanford.edu/) | — | Large network analysis | ⭐⭐⭐⭐ |
-| [Graph-Tool](https://graph-tool.skewed.de/) | — | C++ backend, Python binding | ⭐⭐⭐⭐ |
+| Library | Best For |
+|---------|----------|
+| [NetworkX](https://github.com/networkx/networkx) | Graph algorithms, analysis |
+| [igraph](https://igraph.org/) | High-performance algorithms |
+| [SNAP](http://snap.stanford.edu/) | Large network analysis |
+| [Graph-Tool](https://graph-tool.skewed.de/) | C++ backend, Python binding |
 
 ### Distributed Processing
 
@@ -110,13 +110,13 @@ Display and interact with graphs in web and desktop environments.
 
 ### JavaScript (Web)
 
-| Library | GitHub | Best For | Stars |
-|---------|--------|----------|-------|
-| [Cytoscape.js](https://js.cytoscape.org/) | [cytoscape/cytoscape.js](https://github.com/cytoscape/cytoscape.js) | Interactive, feature-rich web viz | ⭐⭐⭐⭐⭐ |
-| [Vis.js](https://visjs.org/) | [visjs/vis-network](https://github.com/visjs/vis-network) | Easy, performant network graphs | ⭐⭐⭐⭐ |
-| [D3.js](https://d3js.org/) | [d3/d3](https://github.com/d3/d3) | Highly customizable, powerful | ⭐⭐⭐⭐⭐ |
-| [Force-Graph](https://github.com/vasturiano/force-graph) | — | 2D/3D force-directed layout | ⭐⭐⭐⭐ |
-| [Sigma.js](https://www.sigmajs.org/) | [jacomyal/sigma.js](https://github.com/jacomyal/sigma.js) | Large network visualization | ⭐⭐⭐⭐ |
+| Library | GitHub | Best For |
+|---------|--------|----------|
+| [Cytoscape.js](https://js.cytoscape.org/) | [cytoscape/cytoscape.js](https://github.com/cytoscape/cytoscape.js) | Interactive, feature-rich web viz |
+| [Vis.js](https://visjs.org/) | [visjs/vis-network](https://github.com/visjs/vis-network) | Easy, performant network graphs |
+| [D3.js](https://d3js.org/) | [d3/d3](https://github.com/d3/d3) | Highly customizable, powerful |
+| [Force-Graph](https://github.com/vasturiano/force-graph) | — | 2D/3D force-directed layout |
+| [Sigma.js](https://www.sigmajs.org/) | [jacomyal/sigma.js](https://github.com/jacomyal/sigma.js) | Large network visualization |
 
 ### Python
 
@@ -194,14 +194,14 @@ Apply deep learning to graph-structured data.
 
 ### Libraries
 
-| Library | GitHub | Framework | Best For | Maturity |
-|---------|--------|-----------|----------|----------|
-| [PyTorch Geometric](https://github.com/pyg-team/pytorch_geometric) | — | PyTorch | Most popular GNN library | ⭐⭐⭐⭐⭐ |
-| [DGL](https://github.com/dmlc/dgl) | — | PyTorch/TF/MXNet | Framework-agnostic GNN | ⭐⭐⭐⭐⭐ |
-| [Spektral](https://graphneural.network/) | — | Keras/TF | Graph NN on TensorFlow | ⭐⭐⭐⭐ |
-| [Jraph](https://github.com/deepmind/jraph) | — | JAX | DeepMind's JAX library | ⭐⭐⭐ |
-| [StellarGraph](https://github.com/stellargraph/stellargraph) | — | TF/Keras | ML on graphs | ⭐⭐⭐ |
-| [Graph-Tool](https://graph-tool.skewed.de/) | — | C++/Python | Network analysis + ML | ⭐⭐⭐⭐ |
+| Library | Framework | Best For |
+|---------|-----------|----------|
+| [PyTorch Geometric](https://github.com/pyg-team/pytorch_geometric) | PyTorch | Most popular GNN library |
+| [DGL](https://github.com/dmlc/dgl) | PyTorch/TF/MXNet | Framework-agnostic GNN |
+| [Spektral](https://graphneural.network/) | Keras/TF | Graph NN on TensorFlow |
+| [Jraph](https://github.com/deepmind/jraph) | JAX | DeepMind's JAX library |
+| [StellarGraph](https://github.com/stellargraph/stellargraph) | TF/Keras | ML on graphs |
+| [Graph-Tool](https://graph-tool.skewed.de/) | C++/Python | Network analysis + ML |
 
 ---
 
